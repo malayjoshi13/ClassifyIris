@@ -2,18 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>iris-classifier</title>
     <link rel="stylesheet" href="static/style.css">
   </head>
-  <body class = "full" style="background-color:#419c9e;">
+  <body>
       <div class="prediction_form">
-        <div class="heading" style = "color:#213838;">Iris Flower Species Predicition</div><br>
+        <div class="heading" style="color:#ffff">Iris Flower Species</div><br>
+		<div class="heading" style="color:#ffff">Predictor</div><br>
         <form method="POST", action="{{url_for('home')}}">
           <input type="text", name='a', placeholder="Sepal Length"> <br><br>
           <input type="text", name='b', placeholder="Sepal Width"> <br><br>
           <input type="text", name='c', placeholder="Petal Length"> <br><br>
           <input type="text", name='d', placeholder="Petal Width"> <br><br>
-          <input type="submit" , class="myButton" value='predict' >
+          <input type="submit" , class="myButton", value='PREDICT'>
         </form>
       </div>
   </body>

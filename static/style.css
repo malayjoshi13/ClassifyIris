@@ -1,8 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #419c9e;
-
+  background-image: url("https://wallpapercave.com/wp/wp2577110.jpg");
 }
 .full{
   text-align: center;
@@ -13,6 +12,8 @@ body{
   font-size: 45px;
   font-weight: bolder;
   color: #213838;
+  text-align:center;
+  
 
 }
 .afterheading{
@@ -49,7 +50,7 @@ input {
 
 
 ::placeholder {
-  color: #a1c7c9;
+  color: white;
   opacity: 1;
 }
 ::-ms-input-placeholder {
@@ -57,10 +58,9 @@ input {
 }
 .myButton {
 	box-shadow: 0px 0px 28px -17px #7a9799;
-	background:linear-gradient(to bottom right, #7a9799 5%, #036166 100%);
-	background-color:#c5d3d4;
+	background:gray;
 	border-radius:42px;
-	border:2px solid #7a9799;
+	border:2px solid black;
 	cursor:pointer;
 	color:#fff;
   margin-right:0;
@@ -70,11 +70,4 @@ input {
 	text-decoration:none;
 	text-shadow:0px -1px 30px #042169;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom right, #036166 5%, #7a9799 100%);
-	background-color:#476e9e;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
