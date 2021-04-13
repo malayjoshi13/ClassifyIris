@@ -1,7 +1,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Result</title>
+    <title>iris-classifier</title>
     <link rel="stylesheet" href="static/style.css">
 	<script>
 		function goBack() {
@@ -9,17 +9,17 @@
 		}
 	</script>
   </head>
-  <body class="full" style="background-color:#419c9e;">
-    <br><div class="afterheading" style = "color:#213838;">Predicition</div><br>
+  <body style="height:100%;width:100%;justify-content:center;text-align:center;padding-top:100px">
+    <br><div class="afterheading" style="color:#ffff"><u>Predicition</u></div><br>
 
     {%if data == 0%}
-    <h1>Iris Setosa</h1>
+    <h1 style="color:#ffff">Iris Setosa</h1>
 
     {%elif data == 1%}
-    <h1>Iris virginica</h1>
+    <h1 style="color:#ffff">Iris virginica</h1>
 
     {% else %}
-    <h1>Iris Versicolor</h1>
+    <h1 style="color:#ffff">Iris Versicolor</h1>
     {%endif%}
 
         <br><br>

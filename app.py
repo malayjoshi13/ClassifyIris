@@ -21,8 +21,8 @@ def home():
     data3 = request.form['c']
     data4 = request.form['d']
     arr = np.array([[data1, data2, data3, data4]])
-    pred = model.predict(arr)
-    return render_template('result.html', data=pred)
+    prediction = model.predict(arr)
+    return render_template('result.html', data=prediction)
 
 
 if __name__ == "__main__":
