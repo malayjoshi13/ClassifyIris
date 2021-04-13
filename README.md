@@ -1,2 +1,1 @@
-# Iris_Flower_Prediction
-Iris flower prediction by ML model.<br>
+Iris flower prediction using Machine Learning.<br>
