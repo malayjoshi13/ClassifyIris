@@ -3,6 +3,11 @@
     <meta charset="utf-8">
     <title>Result</title>
     <link rel="stylesheet" href="static/style.css">
+	<script>
+		function goBack() {
+		  window.location.href='/'
+		}
+	</script>
   </head>
   <body class="full" style="background-color:#419c9e;">
     <br><div class="afterheading" style = "color:#213838;">Predicition</div><br>
@@ -18,7 +23,6 @@
     {%endif%}
 
         <br><br>
-
-  <a href="/" class="myButton">Back to Home </a>
+  <button class='myButton' onclick="goBack()">Go Back</button>
   </body>
 </html>
