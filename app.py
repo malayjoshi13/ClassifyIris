@@ -21,7 +21,7 @@ def predict():
 
     output = prediction[0]
 
-    return render_template('index.html', prediction_text='Class of a Iris Plant: {}'.format(output))
+    return render_template('index.html', prediction_text="Corresponding Iris Plant's Class: {}".format(output))
 
 
 if __name__ == "__main__":

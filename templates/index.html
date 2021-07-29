@@ -2,20 +2,18 @@
 <html >
 <!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
-  <meta charset="UTF-8">
-  <title>Score Predictor</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-
+	<meta charset="UTF-8">
+	<title>Score Predictor</title>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 </head>
 
-
-<body style="background-color:powderblue; text-align: center; ">
+<body style="background-color:grey; text-align: center; ">
 
  <div class="login">
-	<h1 style="background-color:SlateBlue;">Prediction of Class of Iris Plant.</h1>
+	<h1 style="background-color:yellow;">Prediction of Class of Iris Plant.</h1>
 	
 	<h2>Enter the features of Iris Plant.</h2>
 
@@ -25,13 +23,15 @@
     	<input type="text" name="SepalWidthCm" placeholder="Enter Sepal Width in Cm" required="required" />
     	<input type="text" name="PetalLengthCm" placeholder="Enter Petal Length in Cm" required="required" />
     	<input type="text" name="PetalWidthCm" placeholder="Enter Petal Width in Cm" required="required" />
-   
-        <button type="submit" class="btn btn-primary btn-block btn-large" style="background-color:tomato;">Predict</button>
+		<br>
+		<br>
+		<br>
+		<div><button type="submit" class="btn btn-primary btn-block btn-large" style="background-color:tomato;">Predict</button></div>
     </form>
 
    <br>
    <br>
-   {{ prediction_text }}
+   <h2>{{ prediction_text }}</h2>
 
  </div>
 
