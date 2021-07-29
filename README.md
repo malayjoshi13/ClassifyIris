@@ -12,6 +12,14 @@ This dataset is a multivariate data set introduced by Ronald Fisher which is ava
 
 Through ```iris_classifier.ipynb``` we compared different classification algorithms namely ```K-Nearest Neighbours```, ```Decision Tree```, ```Support Vector Machine``` and ```Linear Regression``` for their accuracy to predict the class of the iris flowers. After comparison we find that ```Decision Tree classification algorithm``` is the best classifier. 
 
+
+| Algorithm               |  F1 score  |  Log Loss  |
+|-------------------------|------------|------------|
+| K Nearest Neighbour     | 0.91       | NA         |
+| Decision Tree           | 0.93       | NA         |
+| Support Vector Machine  | 0.91       | NA         |
+| Logistic Regression     | 0.83       | 0.84       |
+
 Finally we train this best model using the complete dataset and use it as a web-application hosted on ```Heroku``` to predict the class of the iris flowers as Iris Setosa (or) Iris Versicolour (or) Iris Virginica given its attribute information namely the sepal length, sepal width, petal length and petal width values in centimeter.<br><br>
 
 Thus, this project can be used in two ways:
