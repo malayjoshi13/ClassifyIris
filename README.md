@@ -25,5 +25,5 @@ Finally ```Decision Tree classification algorithm```, which is the best model is
 
 The final trained model is available as a deployed web-application on Heroku at .
 
-Apart from this user can fine-tune current model by improving parameters in ```iris_classifier.ipynb``` file available at . Please open this file as a Google Colaboratory to avoid environment setup.
+Apart from this user can fine-tune current model by improving parameters in ```iris_classifier.ipynb``` file available at https://drive.google.com/file/d/1_988PXug6vy9q9ELjK_Rq52O_crzf4iy/view?usp=sharing. Please open this file as a Google Colaboratory to avoid environment setup.
 <br><br><br>
